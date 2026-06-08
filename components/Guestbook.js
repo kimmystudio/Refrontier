@@ -162,9 +162,7 @@ export default function Guestbook() {
         <Reveal delay={0.1}>
           <p className="gb-intro">
             전시에서 찍은 사진, 작품을 담은 사진, 혹은 저와 함께 찍은 사진을 올리고
-            짧은 문구를 남겨주세요. 사진은 여러 장 한 번에 올릴 수 있어요. 남겨주신
-            기록은 아래에 차곡차곡 쌓입니다.
-          </p>
+            짧은 문구를 남겨주세요. 사진은 여러 장 한 번에 올릴 수 있어요.          </p>
         </Reveal>
 
         {!isSupabaseConfigured ? (
@@ -267,7 +265,7 @@ export default function Guestbook() {
                 <span aria-hidden="true">→</span>
               </button>
               <p className="gb-note">
-                * 남겨주신 내용은 모두에게 공개됩니다. 개인정보는 적지 말아주세요.
+                * 남겨주신 내용은 모두에게 공개됩니다.
               </p>
             </form>
           </Reveal>
