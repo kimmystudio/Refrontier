@@ -158,14 +158,7 @@ export default function Guestbook() {
   }
 
   return (
-    <section className="section" id="guestbook">
-      <div className="wrap">
-        <Reveal>
-          <span className="eyebrow">방명록 / Guestbook</span>
-        </Reveal>
-        <Reveal delay={0.05}>
-          <h2 className="section-title">함께한 기록을 남겨주세요</h2>
-        </Reveal>
+    <>
         <Reveal delay={0.1}>
           <p className="gb-intro">
             전시에서 찍은 사진, 작품을 담은 사진, 혹은 저와 함께 찍은 사진을 올리고
@@ -319,7 +312,6 @@ export default function Guestbook() {
             )}
           </>
         )}
-      </div>
-    </section>
+    </>
   );
 }

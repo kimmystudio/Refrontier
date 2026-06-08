@@ -27,9 +27,11 @@ export default function Home() {
         <Section title="이미지 패널" subtitle="Panels">
           <GalleryGroups groups={galleryGroups} />
         </Section>
-      </div>
 
-      <Guestbook />
+        <Section title="방명록" subtitle="Guestbook" defaultOpen>
+          <Guestbook />
+        </Section>
+      </div>
 
       <Footer />
     </main>
